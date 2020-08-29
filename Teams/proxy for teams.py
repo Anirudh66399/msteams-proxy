@@ -1,9 +1,6 @@
-#import speech_recognition as sr
 import os
 import time
 import pyautogui
-import keyboard
-import pywinauto
 import datetime
 
 
