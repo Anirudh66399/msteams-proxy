@@ -11,8 +11,7 @@ import datetime
 
 #To Link Teams To pywinauto and restore meeting window
 def call():
-    #app=pywinauto.Application()
-    #app.connect(title_re=".*Microsoft Teams*",best_match="Microsoft Teams")
+    
     dlg1=app.window(title_re=".*Call in progress*")
     dlg1.restore()
 
@@ -61,11 +60,6 @@ def enter(a,b):
     pyautogui.scroll(-90)
     time.sleep(2)
     pyautogui.click()
-    '''try:
-        pyautogui.click('calenjoin1.png')
-
-    except:
-        pyautogui.click('calenjoinempty.png')'''
     
     time.sleep(5)
 
@@ -74,6 +68,7 @@ def enter(a,b):
         pyautogui.click('join.png')
     except:
         pyautogui.click('join1.png')
+        
     time.sleep(5)
 
 
@@ -140,6 +135,8 @@ def classes():
 
 
 #End of functions
+
+
 time.sleep(5)
 
 
@@ -155,11 +152,4 @@ time.sleep(5)
 
 
 classes()
-
-
-
-#enter()
-
-#currentMouseX, currentMouseY = pyautogui.position()
-#print(currentMouseX,currentMouseY)
 
