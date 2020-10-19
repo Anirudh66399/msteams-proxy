@@ -1,4 +1,6 @@
 # msteams-proxy
+Updated for latest ms teams app
+
 A proxy program for ms teams which joins the classes on your behalf.
 
 All the files mentioned above are important for the program the work.
