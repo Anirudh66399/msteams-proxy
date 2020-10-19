@@ -7,7 +7,7 @@ All the files mentioned above are important for the program the work.
 
 It is a really simple program which gets the job done and can be edited to your preference or your classes timings,time table etc.
 
-It doesn't give the roll calls on your behalf,it justs joins and leaves the classes on the time specified in the program.
+It doesn't give the roll calls on your behalf,it justs joins and leaves the classes on the time specified in the program.I know that is a big issue but i am working on it so till then you can ask your friends to call you if there is a rollcall else just sleep.
 
 Remember to change the directory path to the ms teams application in your computer.
 
