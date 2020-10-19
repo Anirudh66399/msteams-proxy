@@ -35,4 +35,12 @@ IMPORTANT
 
 4. Make sure the python script and the files are all place in the same folder only else the program won't be able to access them.
 
+5. This is a simple program which uses the given images in the folder and then searches them on the current screen using pyautogui module and when found, it clicks on them.So when using this program make sure nothing pops up on the screen in between else it won't be able to find the objects on the screen and hence give an error.
+
+6. You can also use the sleep function to sleep the function till your 1st class like 10am in my case so ou won't have to wake up in the morning to run the program to.
+    To do that simply type sleep(10,00)[in my case for 10am in the morning] just before calling launch() in the last 6th line  and run the program and your program will sleep till the time specified in the morning and then execute the rest of the code.
+    
+7. I hope i have made everything clear to you and if you still have doubts ,feel free to contact me 
+    https://www.linkedin.com/in/anirudh-parihar-64b89b1a7/
+
 Enjoy Free Proxiessssssssssss
