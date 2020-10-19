@@ -21,12 +21,7 @@ def launch():
     
     os.system(r'start C:\Users\Anirudh" "Parihar\AppData\Local\Microsoft\Teams\Update.exe --processStart "Teams.exe"')
     time.sleep(10)
-    try:
-        pyautogui.click('calendarloc.png')
     
-    except:
-        pyautogui.click('calendarloc2.png')
-
 
 
 
