@@ -95,7 +95,8 @@ def enter(a,b):
     
     try:
         dlg2=app.window(title_re=".*Microsoft Teams*")
-        dlg2.restore()
+        dlg2.set_focus()
+        dlg2.maximize()
     except:
         launch()
 
